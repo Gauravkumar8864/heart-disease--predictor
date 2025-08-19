@@ -18,7 +18,7 @@ from xgboost import XGBClassifier
 from lightgbm import LGBMClassifier
 from catboost import CatBoostClassifier
 
-from preprocess import build_preprocessor
+from .preprocess import build_preprocessor
 
 RANDOM_STATE = 42
 
